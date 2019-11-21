@@ -24,22 +24,22 @@
 
 :root {
   /* Text properties */
-  --font: 'Libre Baskerville', serif;
+  --font: 'Source Sans Pro', sans-serif;
   --code-font: 'Source Code Pro', monospace;
-  --font-size: 14px;
-  --code-font-size: 1em; /* *not* rem, so it follows surrounding font size */
+  --font-size: 16px;
+  --code-font-size: 0.9em; /* *not* rem, so it follows surrounding font size */
   --line-height: normal;
   --paragraph-indent: 1.5rem;
   --paragraph-align: justify;
   --link-decoration: underline;
   --link-decoration-nav: none;
   --link-decoration-heading: none;
-  --nav-brand-case: lowercase;
-  --nav-menu-case: lowercase;
+  --nav-brand-case: uppercase;
+  --nav-menu-case: none;
   --nav-heading-case: uppercase;
   --nav-categories-case: lowercase;
   --landing-header-case: lowercase;
-  --heading-font-weight: normal;
+  --heading-font-weight: 600;
 
   /* Shapes */
   --border-radius: 0.2rem;
@@ -58,13 +58,13 @@
   --console-inverted-color: var(--code-inverted-color);
   /* This is simply color-picked --code-note-background-color on top of
      --background-color */
-  --code-background-color: #fbf0ec;
+  --code-background-color: #fcf4f1;
   --code-note-background-color: rgba(251, 240, 236, 0.5);
   --console-background-color: #000000;
   --button-background-color: #ffffff;
 
   /* Header */
-  --header-border-width: 0.25rem 0 0 0;
+  --header-border-width: 0 0 0.25rem 0;
   --header-color: #000000;
   --header-breadcrumb-color: #bdbdbd; /* same as --dim-color */
   --header-background-color: #ffffff;
@@ -101,14 +101,14 @@
   --navpanel-link-active-color: #cb4b16;
 
   /* Plots */
-  --plot-background-color: #fbf0ec;
+  --plot-background-color: #fcf4f1;
   --plot-error-color: #000000;
 
   /* Colored components */
   --default-color: #000000;
   --default-link-active-color: #cb4b16;
   --default-filled-color: #000000;
-  --default-filled-background-color: #fbf0ec;
+  --default-filled-background-color: #fcf4f1;
   --default-filled-link-color: #ea7944;
   --default-filled-link-active-color: #cb4b16;
 
